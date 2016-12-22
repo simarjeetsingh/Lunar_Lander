@@ -1,0 +1,112 @@
+body,html{
+    background-image: url("../img/fondo_estrellas.png");
+    background-size: cover;
+    height:100%;padding:0px;margin:0px;}
+#hidem,#showm{display:none;}
+.left,.centre,.right{display:inline-block;width:33.33%;height:100%;float:left;}
+.bottom{ background: url("../img/luna.png");background-size: cover;position:fixed;bottom:0px;height:15%;width:100%;position:fixed;bottom:0px;}
+	#nave{text-align:center;position:fixed;top:10%;width:100%;height:20%;z-index: 1;}
+	#imgnave{height:80%;}
+
+#cpanel{
+	max-width: max-content;		
+	background-color: rebeccapurple;
+	margin: 15px;
+	width: 100%;
+	border-color: deepskyblue;
+	border-style: double;
+	font-size: 170%;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: #fff;
+    }
+	
+#menu{font-size: 130%;}
+#tierra{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:10%;
+    height: 80%;
+}
+#tierra img {height: 80%;}
+#play:hover {background-color: purple; }
+#play {
+    background-image: url("../img/continuar.png");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+	display: none;
+	float: right;
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	margin-top: 3%;
+}
+#pause:hover {background-color: purple; }
+#pause {	
+    background-image: url("../img/pause.png");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	background-position: 50% 50%;
+	display: inline-block;
+	float: right;
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	margin-top: 3%;
+}
+#restart:hover {background-color: purple;}
+#restart {
+    background-image: url("../img/reiniciar.png");
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 50% 50%;
+	display: inline-block;
+	float: right;
+	width: 70px; 
+    height: 70px;
+	margin: 10px;
+	margin-top: 3%;
+}
+#instructions:hover {background-color: purple;}
+#instructions {
+    background-image: url("../img/info.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: 50%;
+	font-size: 0%;
+	display: inline-block;
+	float: right;
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	margin-top: 3%;	
+}
+#quitGame{
+	margin:1%;
+    position: fixed;
+    border-radius: 20px;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    background: rebeccapurple;
+    padding: 1%;
+    z-index: 4;
+    text-align: center;
+    display: none;
+	color:white; }
+	
+#win{margin:1%;
+    position: fixed;
+    border-radius: 20px;
+    width: 70%;
+    left: 15%;
+    top: 20%;
+    background:rebeccapurple;
+    padding: 1%;
+    z-index: 4;
+    text-align: center;
+    display: none;
+	color:white; 
+}

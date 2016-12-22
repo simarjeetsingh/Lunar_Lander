@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Lunar Lander">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' media='screen and (min-width: 961px)' href='css/d.css'>
+        <link rel='stylesheet' media='screen and (max-width: 960px)' href='css/m.css'>
+        <script src="js/js.js"></script>
+    </head>
+    <body>
+        <div id="nave">
+            <img id="imgnave" src="img/nave.png" alt="img nave">
+       </div>
+        <div id="tierra">
+            <img src="img/tierra.png" alt="img tierra">
+        </div>
+        <div class="left">            
+                <ul id="cpanel">
+                    Velocidad: <br><span id="velocidad">100</span> m/s<br><br>
+                    Fuel: <br><span id="fuel">100</span> l<br><br>
+                    Altura: <br><span id="altura">60</span> m
+                </ul>
+        </div>
+        <div class="centre"></div>
+        <div class="right">
+            <div id="showm">Show menu</div>
+            <div id="hidem">Hide menu</div>
+                    <a href="#" onclick="play();"><div id="play"></div></a>
+                    <a href="#" onclick="pause();"><div id="pause"></div></a>
+                    <a href="#" onclick="restart();"><div id="restart"></div></a>
+                    <a href="#" onclick="instructions();"><div id="instructions"></div></a>
+            </div>
+        <div class="bottom"></div>
+        
+        <div id="quitGame">
+            <h1>!!!oops!!!</h1>
+            <h3>La velocidad de atterizaje no debe superar 5m/s.</h3>
+            <button id="tryAgain"><h3>Try Again</h3></button>    
+        </div>
+        <div id="win">
+            <h1> !!!Great Job!!!</h1>
+            <button id="playAgain"><h3>Play Again</h3></button>
+        </div>
+    </body>
+</html>
+
+
+
+
+
